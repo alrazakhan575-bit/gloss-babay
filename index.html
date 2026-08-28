@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glossbaby by Annie Chhabra | Premium Beauty Studio</title>
+<meta name="description" content="Discover premium nail art, nail extensions, bridal nails and professional makeup at Glossbaby by Annie Chhabra.">
+<meta name="theme-color" content="#2B2622">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Glossbaby by Annie Chhabra | Premium Beauty Studio">
+<meta property="og:description" content="Premium nail art, nail extensions, bridal nails and professional makeup — crafted for your most beautiful moments.">
+<meta property="og:image" content="images/studio-luxury.jpg">
+<meta property="og:url" content="https://glossbaby.example.com/">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Favicon -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%232B2622'/%3E%3Ctext x='50' y='64' font-size='52' text-anchor='middle' fill='%23D9B08C' font-family='Georgia,serif'%3EN%3C/text%3E%3C/svg%3E">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+<!-- Local Business structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "Glossbaby by Annie Chhabra",
+  "image": "images/studio-luxury.jpg",
+  "url": "https://glossbaby.example.com/",
+  "telephone": "+91-00000-00000",
+  "priceRange": "$$",
+  "sameAs": ["https://www.instagram.com/glossbaby_byanniechhabra/"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "IN"
+  }
+}
+</script>
+</head>
+<body>
+
+<!-- ============================= HEADER ============================= -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#home" class="brand" aria-label="Glossbaby — Home">
+      <span class="brand-name">GLOSSBABY</span>
+      <span class="brand-sub">Nail Art &amp; Makeup Studio</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#nailart">Nail Art</a>
+      <a href="#makeup">Makeup</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-cta">
+      <a href="#booking" class="btn btn-primary">Book Appointment</a>
+    </div>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobilePanel">
+      <span class="bars"><span></span><span></span><span></span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============================= MOBILE MENU (isolated) ============================= -->
+<div class="mobile-backdrop" id="mobileBackdrop"></div>
+<nav class="mobile-panel" id="mobilePanel" aria-label="Mobile navigation" aria-hidden="true">
+  <div class="mobile-panel-head">
+    <span class="brand-name">GLOSSBABY</span>
+    <button class="menu-btn" id="mobileClose" aria-label="Close menu" style="border-color:rgba(0,0,0,.12)">
+      <span class="bars" style="transform:none;"><span style="top:5px;transform:rotate(45deg);background:#2B2622;"></span><span style="opacity:0;"></span><span style="top:5px;transform:rotate(-45deg);background:#2B2622;"></span></span>
+    </button>
+  </div>
+  <div class="mobile-nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#nailart">Nail Art</a>
+    <a href="#makeup">Makeup</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="mobile-panel-foot">
+    <a href="#booking" class="btn btn-primary">Book Appointment</a>
+    <div class="mobile-social">
+      <a href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener">Instagram</a>
+      <span>&middot;</span>
+      <a href="https://maps.app.goo.gl/9YwUMVEBxoEd7NqN7" target="_blank" rel="noopener">Directions</a>
+    </div>
+  </div>
+</nav>
+
+<main id="home">
+
+  <!-- ============================= HERO ============================= -->
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-media">
+      <img src="images/studio-luxury.jpg" alt="Elegant hand with gold nail art detailing at Glossbaby studio" fetchpriority="high">
+    </div>
+    <div class="hero-content">
+      <span class="eyebrow">Glossbaby</span>
+      <h1>Where Beauty<br>Meets Artistry</h1>
+      <p class="lead">Premium Nail Art &amp; Beauty Studio crafted for your most beautiful moments.</p>
+      <div class="hero-actions">
+        <a href="#booking" class="btn btn-outline">Book Appointment</a>
+        <a href="#gallery" class="btn btn-outline">Explore Our Work</a>
+        <a href="https://wa.me/919340556124" target="_blank" rel="noopener" class="btn btn-wa" aria-label="Chat with Glossbaby on WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.6-1.5-1.8-.2-.3 0-.4.1-.6l.4-.4c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.4-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.3-.8.8-.8 1.9s.8 2.2 1 2.4c.1.1 1.6 2.5 3.9 3.5.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.3-.5 1.5-1 .2-.5.2-.9.1-1l-.4-.1zM12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <span class="line"></span>
+    </div>
+  </section>
+
+  <!-- ============================= INTRO / BRAND ============================= -->
+  <section class="intro" id="about">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-media reveal">
+          <img src="images/woman-manicure.jpg" alt="Client admiring her luxury chrome and glitter manicure at Glossbaby" loading="lazy" width="900" height="1125">
+          <div class="frame"></div>
+        </div>
+        <div class="intro-text">
+          <span class="eyebrow reveal">About Glossbaby</span>
+          <h2 class="reveal reveal-d1">Beauty, Designed<br>Around You.</h2>
+          <p class="lead reveal reveal-d2">Glossbaby by Annie Chhabra is a premium nail art and beauty studio where precision meets artistry. From intricate hand-painted nail designs to flawless bridal makeup, every appointment is a considered, personal experience — created around your features, your occasion, and your story.</p>
+          <ul class="intro-list reveal reveal-d3">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 6L9 17l-5-5"/></svg>Nail Artistry &amp; Extensions</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 6L9 17l-5-5"/></svg>Signature Manicure</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 6L9 17l-5-5"/></svg>Bridal Nail Art</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 6L9 17l-5-5"/></svg>Professional Makeup</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 6L9 17l-5-5"/></svg>Bridal Makeup</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 6L9 17l-5-5"/></svg>Party &amp; Event Makeup</li>
+          </ul>
+          <a href="#services" class="btn btn-outline-dark reveal reveal-d4">Discover Our Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= SERVICES ============================= -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow center">What We Offer</span>
+        <h2>Our Signature Services</h2>
+        <p>Considered treatments across nail artistry and professional makeup — each finished with meticulous, editorial-level detail.</p>
+      </div>
+
+      <div class="service-tabs reveal" role="tablist" aria-label="Service categories">
+        <button class="service-tab active" data-tab="nails" role="tab" aria-selected="true">Nail Art</button>
+        <button class="service-tab" data-tab="makeup" role="tab" aria-selected="false">Makeup</button>
+      </div>
+
+      <div class="service-panel active" data-panel="nails">
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/technician-ext.jpg" alt="Nail technician applying nail extensions" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Nail Art</span>
+            <h3>Nail Extensions</h3>
+            <p>Sculpted gel or acrylic extensions in your chosen length and shape, built for strength and a flawless finish.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/chrome-nails.jpg" alt="Chrome nails with pearlescent finish" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Nail Art</span>
+            <h3>Chrome &amp; Gel Nails</h3>
+            <p>Mirror-like chrome finishes and long-lasting gel colour, cured to a glass-smooth shine.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/french-almond.jpg" alt="French manicure on almond shaped nails" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Nail Art</span>
+            <h3>French Nails</h3>
+            <p>A modern take on the classic French tip — crisp, timeless, and endlessly elegant.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/coffin-glitter.jpg" alt="Coffin shaped nails with glitter and crystals" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Nail Art</span>
+            <h3>Glitter &amp; Chrome Art</h3>
+            <p>Statement glitter fades and crystal placement for a bold, editorial finish.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/floral-3d.jpg" alt="3D nail art with floral pearl details" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Nail Art</span>
+            <h3>3D Nail Art</h3>
+            <p>Hand-sculpted florals, pearls and fine detailing for a truly one-of-a-kind design.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/almond-gold.jpg" alt="Minimal almond nails with fine gold details" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Nail Art</span>
+            <h3>Minimal Nail Art</h3>
+            <p>Delicate line work and fine gold detailing for understated, everyday elegance.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/bride-hands.jpg" alt="Bridal nail art with mehndi and gold jewellery" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Nail Art</span>
+            <h3>Bridal Nail Art</h3>
+            <p>Custom bridal designs coordinated with your jewellery, outfit and wedding palette.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/woman-nails.jpg" alt="Custom nail design with gold detailing" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Nail Art</span>
+            <h3>Custom Designs</h3>
+            <p>Bring a reference or an idea — our artists translate it into a bespoke nail design.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="service-panel" data-panel="makeup">
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/bride-makeup.jpg" alt="Bride receiving professional bridal makeup application" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Makeup</span>
+            <h3>Bridal Makeup</h3>
+            <p>Long-wear, camera-ready bridal makeup tailored to your skin tone and wedding look.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/woman-party.jpg" alt="Woman wearing professional party makeup look" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Makeup</span>
+            <h3>Party Makeup</h3>
+            <p>Glam, radiant looks designed to stand out at your next celebration.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/bride-portrait.jpg" alt="Bride wearing traditional jewellery with soft bridal makeup" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Makeup</span>
+            <h3>Engagement Makeup</h3>
+            <p>Soft, luminous looks styled to complement your jewellery and outfit.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/eye-makeup.jpg" alt="Close up of professional shimmer eye makeup with winged liner" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Makeup</span>
+            <h3>Event Makeup</h3>
+            <p>Precision eye work and skin finishing for any occasion, big or small.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/makeup-artist.jpg" alt="Makeup artist applying foundation with a brush" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Makeup</span>
+            <h3>Custom Looks</h3>
+            <p>From natural everyday glow to full glam — a look built entirely around you.</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-card-media"><img src="images/makeup-products.jpg" alt="Flatlay of premium makeup products and brushes" loading="lazy" width="600" height="750"></div>
+          <div class="service-card-body">
+            <span class="service-card-tag">Makeup</span>
+            <h3>Premium Products</h3>
+            <p>We work exclusively with professional, skin-loving formulas for a flawless finish.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= NAIL ART SHOWCASE ============================= -->
+  <section class="showcase" id="nailart">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow center">Nail Artistry</span>
+        <h2>Crafted, One Nail at a Time</h2>
+        <p>An edit of recent work — from delicate French lines to sculpted 3D florals.</p>
+      </div>
+
+      <div class="showcase-grid reveal">
+        <div class="showcase-item si-1" data-lightbox data-full="images/floral-3d.jpg" data-caption="3D Floral Bridal Nail Art">
+          <img src="images/floral-3d.jpg" alt="3D floral nail art with pearls and crystals" loading="lazy">
+          <div class="showcase-overlay"><span>3D Floral Art</span></div>
+        </div>
+        <div class="showcase-item si-2" data-lightbox data-full="images/chrome-nails.jpg" data-caption="Pearlescent Chrome Finish">
+          <img src="images/chrome-nails.jpg" alt="Pearlescent chrome nail finish on almond nails" loading="lazy">
+          <div class="showcase-overlay"><span>Chrome Finish</span></div>
+        </div>
+        <div class="showcase-item si-3" data-lightbox data-full="images/coffin-glitter.jpg" data-caption="Glitter Coffin Nails">
+          <img src="images/coffin-glitter.jpg" alt="Glitter ombre coffin nails with crystal accents" loading="lazy">
+          <div class="showcase-overlay"><span>Glitter Glam</span></div>
+        </div>
+        <div class="showcase-item si-4" data-lightbox data-full="images/almond-gold.jpg" data-caption="Minimal Gold Line Art">
+          <img src="images/almond-gold.jpg" alt="Minimal gold line nail art on nude almond nails" loading="lazy">
+          <div class="showcase-overlay"><span>Minimal Gold</span></div>
+        </div>
+        <div class="showcase-item si-5" data-lightbox data-full="images/french-almond.jpg" data-caption="Classic French Manicure">
+          <img src="images/french-almond.jpg" alt="Classic white tip French manicure on almond nails" loading="lazy">
+          <div class="showcase-overlay"><span>Classic French</span></div>
+        </div>
+        <div class="showcase-item si-6" data-lightbox data-full="images/woman-nails.jpg" data-caption="French Tips with Gold Charms">
+          <img src="images/woman-nails.jpg" alt="French tip nails with gold leaf charms and crystals" loading="lazy">
+          <div class="showcase-overlay"><span>Gold Charm French</span></div>
+        </div>
+      </div>
+
+      <div class="showcase-cta reveal">
+        <a href="#gallery" class="btn btn-outline-dark">View Full Gallery</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= MAKEUP EDITORIAL ============================= -->
+  <section class="makeup" id="makeup">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow center">Makeup Artistry</span>
+        <h2>Makeup That Feels Like You.</h2>
+        <p>Skin-first, long-wearing makeup — from soft everyday glow to full bridal glam.</p>
+      </div>
+
+      <div class="makeup-editorial reveal">
+        <div class="mk-feature" data-lightbox data-full="images/bride-makeup.jpg" data-caption="Bridal Makeup Application">
+          <img src="images/bride-makeup.jpg" alt="Makeup artist applying bridal makeup to a smiling bride" loading="lazy">
+          <div class="mk-caption"><span>Bridal</span><p>Flawless Bridal Finish</p></div>
+        </div>
+        <div class="mk-side" data-lightbox data-full="images/eye-makeup.jpg" data-caption="Glam Shimmer Eye Look">
+          <img src="images/eye-makeup.jpg" alt="Close up shimmer eye makeup with winged eyeliner" loading="lazy">
+          <div class="mk-caption"><span>Glam</span><p>Shimmer &amp; Precision Liner</p></div>
+        </div>
+        <div class="mk-side" data-lightbox data-full="images/woman-party.jpg" data-caption="Party Ready Glam Makeup">
+          <img src="images/woman-party.jpg" alt="Woman smiling with professional party makeup look" loading="lazy">
+          <div class="mk-caption"><span>Party</span><p>Radiant Party Glam</p></div>
+        </div>
+      </div>
+
+      <div class="makeup-cta reveal">
+        <a href="#booking" class="btn btn-gold">Book Your Look</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= BRIDAL ============================= -->
+  <section class="bridal" id="bridal">
+    <div class="container">
+      <div class="bridal-grid">
+        <div class="bridal-media reveal">
+          <div class="bm-main" data-lightbox data-full="images/bride-portrait.jpg" data-caption="Bridal Portrait">
+            <img src="images/bride-portrait.jpg" alt="Bride wearing traditional jewellery and bridal makeup" loading="lazy" width="700" height="933">
+          </div>
+          <div class="bm-sub" data-lightbox data-full="images/bride-hands.jpg" data-caption="Bridal Nail Art with Mehndi">
+            <img src="images/bride-hands.jpg" alt="Bride's hands showing nail art with mehndi and gold jewellery" loading="lazy" width="500" height="700">
+          </div>
+        </div>
+        <div class="bridal-text">
+          <span class="eyebrow reveal">Bridal Collection</span>
+          <h2 class="reveal reveal-d1">For Moments That<br>Deserve More.</h2>
+          <p class="lead reveal reveal-d2">From intricate bridal nails to flawless makeup, create a complete beauty experience for your most unforgettable moments. Our bridal team works closely with you — from trial to wedding day — for a look that photographs as beautifully as it feels.</p>
+          <div class="bridal-stats reveal reveal-d3">
+            <div><strong>500+</strong><span>Brides Styled</span></div>
+            <div><strong>4.9★</strong><span>Client Rating</span></div>
+            <div><strong>10+</strong><span>Years Combined Experience</span></div>
+          </div>
+          <a href="#booking" class="btn btn-primary reveal reveal-d4">Book Bridal Appointment</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= WHY GLOSSBABY ============================= -->
+  <section class="why">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow center">Why Glossbaby</span>
+        <h2>The Glossbaby Difference</h2>
+      </div>
+      <div class="why-grid reveal">
+        <div class="why-item">
+          <span class="why-num">01</span>
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 3l1.6 4.7L18 9l-4.4 1.3L12 15l-1.6-4.7L6 9l4.4-1.3L12 3z"/><path d="M19 15l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7z"/></svg></div>
+          <h3>Personalized Artistry</h3>
+          <p>Every design is created around your style, skin tone and occasion.</p>
+        </div>
+        <div class="why-item">
+          <span class="why-num">02</span>
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 11l3 3 8-8"/><path d="M20 12v6a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h9"/></svg></div>
+          <h3>Premium Finish</h3>
+          <p>Meticulous attention to detail from preparation to the final finish.</p>
+        </div>
+        <div class="why-item">
+          <span class="why-num">03</span>
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 21c4.97-3.5 8-7.5 8-11.5A8 8 0 004 9.5C4 13.5 7.03 17.5 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+          <h3>Professional Experience</h3>
+          <p>A refined, relaxed studio experience from the moment you arrive.</p>
+        </div>
+        <div class="why-item">
+          <span class="why-num">04</span>
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 6a4 4 0 11-8 0 4 4 0 018 0z"/><path d="M20 6a4 4 0 11-8 0"/><path d="M2 20a6 6 0 0112 0"/><path d="M12 20a6 6 0 0110-4.5"/></svg></div>
+          <h3>Beauty for Every Occasion</h3>
+          <p>From everyday elegance to bridal celebrations — we style it all.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= GALLERY ============================= -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow center">Portfolio</span>
+        <h2>Our Gallery</h2>
+        <p>A curated look inside our studio and recent work — filter by category to explore.</p>
+      </div>
+
+      <div class="gallery-filters reveal" role="tablist" aria-label="Gallery filters">
+        <button class="service-tab gallery-filter active" data-filter="all">All</button>
+        <button class="service-tab gallery-filter" data-filter="nailart">Nail Art</button>
+        <button class="service-tab gallery-filter" data-filter="bridal">Bridal</button>
+        <button class="service-tab gallery-filter" data-filter="makeup">Makeup</button>
+        <button class="service-tab gallery-filter" data-filter="studio">Studio</button>
+      </div>
+
+      <div class="gallery-grid reveal">
+
+        <div class="gallery-item" data-cat="nailart" data-lightbox data-full="images/almond-gold.jpg" data-caption="Minimal Gold Line Art">
+          <img src="images/almond-gold.jpg" alt="Minimal gold line nail art" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Nail Art</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="bridal" data-lightbox data-full="images/bride-hands.jpg" data-caption="Bridal Nail Art with Mehndi">
+          <img src="images/bride-hands.jpg" alt="Bridal hands with mehndi and nail art" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Bridal</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="makeup" data-lightbox data-full="images/bride-makeup.jpg" data-caption="Bridal Makeup Application">
+          <img src="images/bride-makeup.jpg" alt="Makeup artist applying bridal makeup" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Makeup</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="bridal" data-lightbox data-full="images/bride-portrait.jpg" data-caption="Bridal Portrait">
+          <img src="images/bride-portrait.jpg" alt="Bride wearing traditional jewellery" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Bridal</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="nailart" data-lightbox data-full="images/chrome-nails.jpg" data-caption="Pearlescent Chrome Nails">
+          <img src="images/chrome-nails.jpg" alt="Pearlescent chrome nails" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Nail Art</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="nailart" data-lightbox data-full="images/coffin-glitter.jpg" data-caption="Glitter Coffin Nails">
+          <img src="images/coffin-glitter.jpg" alt="Glitter coffin nails with crystals" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Nail Art</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="studio" data-lightbox data-full="images/studio-luxury.jpg" data-caption="Glossbaby Studio Interior">
+          <img src="images/studio-luxury.jpg" alt="Luxury nail art and makeup studio interior" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Studio</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="makeup" data-lightbox data-full="images/makeup-artist.jpg" data-caption="Makeup Application">
+          <img src="images/makeup-artist.jpg" alt="Makeup artist applying makeup with a brush" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Makeup</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="makeup" data-lightbox data-full="images/makeup-products.jpg" data-caption="Premium Makeup Products">
+          <img src="images/makeup-products.jpg" alt="Flatlay of premium makeup products and brushes" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Makeup</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="studio" data-lightbox data-full="images/manicure-table.jpg" data-caption="Manicure Table Setup">
+          <img src="images/manicure-table.jpg" alt="Manicure table with candle and nail polish in beauty studio" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Studio</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="studio" data-lightbox data-full="images/studio-interior.jpg" data-caption="Modern Studio Interior">
+          <img src="images/studio-interior.jpg" alt="Modern nail art studio interior with large windows" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Studio</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="nailart" data-lightbox data-full="images/floral-3d.jpg" data-caption="3D Floral Nail Art">
+          <img src="images/floral-3d.jpg" alt="3D floral nail art with pearls" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Nail Art</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="studio" data-lightbox data-full="images/artist-manicure.jpg" data-caption="Nail Artist at Work">
+          <img src="images/artist-manicure.jpg" alt="Nail artist performing a manicure on a client" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Studio</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="studio" data-lightbox data-full="images/polish-shelf.jpg" data-caption="Nail Polish Wall">
+          <img src="images/polish-shelf.jpg" alt="Nail polish bottles displayed on gold shelving" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Studio</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="nailart" data-lightbox data-full="images/french-almond.jpg" data-caption="Classic French Manicure">
+          <img src="images/french-almond.jpg" alt="Classic French manicure on almond nails" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Nail Art</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="makeup" data-lightbox data-full="images/eye-makeup.jpg" data-caption="Shimmer Eye Makeup">
+          <img src="images/eye-makeup.jpg" alt="Close up of professional shimmer eye makeup" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Makeup</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="studio" data-lightbox data-full="images/technician-ext.jpg" data-caption="Nail Extension Application">
+          <img src="images/technician-ext.jpg" alt="Nail technician applying nail extensions to a client" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Studio</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="nailart" data-lightbox data-full="images/woman-manicure.jpg" data-caption="Luxury Chrome Manicure">
+          <img src="images/woman-manicure.jpg" alt="Woman admiring her luxury glitter chrome manicure" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Nail Art</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="nailart" data-lightbox data-full="images/woman-nails.jpg" data-caption="French Tips with Gold Charms">
+          <img src="images/woman-nails.jpg" alt="Manicured nails with French tips and gold charm details" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Nail Art</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="makeup" data-lightbox data-full="images/woman-party.jpg" data-caption="Party Glam Makeup">
+          <img src="images/woman-party.jpg" alt="Woman wearing professional party makeup" loading="lazy" width="600" height="800">
+          <div class="gallery-item-overlay"><span>Makeup</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= INSTAGRAM ============================= -->
+  <section class="insta">
+    <div class="container">
+      <div class="insta-head reveal">
+        <span class="eyebrow center">@glossbaby_byanniechhabra</span>
+        <h2>Follow the Glossbaby Journey</h2>
+        <a href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener" class="insta-handle">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          @glossbaby_byanniechhabra
+        </a>
+      </div>
+
+      <div class="insta-grid reveal">
+        <a class="insta-tile" href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener" aria-label="View on Instagram">
+          <img src="images/almond-gold.jpg" alt="Minimal gold nail art" loading="lazy" width="300" height="300">
+          <div class="insta-tile-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></div>
+        </a>
+        <a class="insta-tile" href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener" aria-label="View on Instagram">
+          <img src="images/coffin-glitter.jpg" alt="Glitter coffin nails" loading="lazy" width="300" height="300">
+          <div class="insta-tile-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></div>
+        </a>
+        <a class="insta-tile" href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener" aria-label="View on Instagram">
+          <img src="images/floral-3d.jpg" alt="3D floral nail art" loading="lazy" width="300" height="300">
+          <div class="insta-tile-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></div>
+        </a>
+        <a class="insta-tile" href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener" aria-label="View on Instagram">
+          <img src="images/bride-hands.jpg" alt="Bridal nail art" loading="lazy" width="300" height="300">
+          <div class="insta-tile-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></div>
+        </a>
+        <a class="insta-tile" href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener" aria-label="View on Instagram">
+          <img src="images/eye-makeup.jpg" alt="Shimmer eye makeup" loading="lazy" width="300" height="300">
+          <div class="insta-tile-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></div>
+        </a>
+        <a class="insta-tile" href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener" aria-label="View on Instagram">
+          <img src="images/woman-party.jpg" alt="Party glam makeup" loading="lazy" width="300" height="300">
+          <div class="insta-tile-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></div>
+        </a>
+      </div>
+
+      <div class="insta-cta reveal">
+        <a href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener" class="btn btn-outline-dark">Follow On Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= BOOKING BANNER ============================= -->
+  <section class="booking-banner" id="booking">
+    <div class="container">
+      <span class="eyebrow center" style="color:var(--rose-gold-light)">Book Your Visit</span>
+      <h2 class="reveal">Ready for Your Next Look?</h2>
+      <p class="reveal reveal-d1">Reserve your appointment today — walk-ins welcome, bookings recommended for bridal &amp; party looks.</p>
+      <div class="booking-actions reveal reveal-d2">
+        <a href="tel:+919340556124" class="btn btn-gold">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Book Appointment
+        </a>
+        <a href="https://wa.me/919340556124" target="_blank" rel="noopener" class="btn btn-wa">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.6-1.5-1.8-.2-.3 0-.4.1-.6l.4-.4c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.4-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.3-.8.8-.8 1.9s.8 2.2 1 2.4c.1.1 1.6 2.5 3.9 3.5.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.3-.5 1.5-1 .2-.5.2-.9.1-1l-.4-.1zM12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2z"/></svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= CONTACT ============================= -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow center">Visit Us</span>
+        <h2>Find The Studio</h2>
+      </div>
+
+      <div class="contact-grid reveal">
+        <div class="contact-media">
+          <img src="images/artist-manicure.jpg" alt="Nail artist performing a manicure at Glossbaby studio" loading="lazy">
+        </div>
+        <div class="contact-info">
+          <span class="eyebrow">Get In Touch</span>
+          <h3>Glossbaby by Annie Chhabra</h3>
+          <p style="color:var(--charcoal-soft);font-size:15px;">We'd love to welcome you in for your next appointment.</p>
+
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <div class="contact-row-label">Location</div>
+              <div class="contact-row-value">
+                <a href="https://maps.app.goo.gl/9YwUMVEBxoEd7NqN7" target="_blank" rel="noopener">Get Directions on Google Maps →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <div>
+              <div class="contact-row-label">Phone</div>
+              <div class="contact-row-value"><a href="tel:+919340556124">+91 93405 56124</a></div>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+            <div>
+              <div class="contact-row-label">Instagram</div>
+              <div class="contact-row-value">
+                <a href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener">@glossbaby_byanniechhabra</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.6-1.5-1.8-.2-.3 0-.4.1-.6l.4-.4c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.4-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.3-.8.8-.8 1.9s.8 2.2 1 2.4c.1.1 1.6 2.5 3.9 3.5.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.3-.5 1.5-1 .2-.5.2-.9.1-1l-.4-.1zM12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2z"/></svg>
+            <div>
+              <div class="contact-row-label">WhatsApp</div>
+              <div class="contact-row-value"><a href="https://wa.me/919340556124" target="_blank" rel="noopener">Message us directly</a></div>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a href="tel:+919340556124" class="btn btn-primary btn-sm">Call Now</a>
+            <a href="https://wa.me/919340556124" target="_blank" rel="noopener" class="btn btn-wa btn-sm">WhatsApp</a>
+            <a href="https://maps.app.goo.gl/9YwUMVEBxoEd7NqN7" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm">Get Directions</a>
+            <a href="#booking" class="btn btn-gold btn-sm">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================= FOOTER ============================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="brand-name">GLOSSBABY</span>
+        <p>A premium nail art and makeup studio dedicated to personalized artistry, refined finishes, and beauty for every occasion.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="https://wa.me/919340556124" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.6-1.5-1.8-.2-.3 0-.4.1-.6l.4-.4c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.4-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.3-.8.8-.8 1.9s.8 2.2 1 2.4c.1.1 1.6 2.5 3.9 3.5.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.3-.5 1.5-1 .2-.5.2-.9.1-1l-.4-.1zM12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#nailart">Nail Art</a></li>
+          <li><a href="#makeup">Makeup</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="#booking">Book Appointment</a></li>
+          <li><a href="https://maps.app.goo.gl/9YwUMVEBxoEd7NqN7" target="_blank" rel="noopener">Get Directions</a></li>
+          <li><a href="https://www.instagram.com/glossbaby_byanniechhabra/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://wa.me/919340556124" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> Glossbaby by Annie Chhabra. All rights reserved.</span>
+      <span>Designed with care for beauty artistry.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================= STICKY MOBILE BOOKING BAR ============================= -->
+<div class="mobile-bar" role="navigation" aria-label="Quick booking">
+  <a href="#booking" class="mb-book">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+    Book Now
+  </a>
+  <a href="https://wa.me/919340556124" target="_blank" rel="noopener" class="mb-wa">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.6-1.5-1.8-.2-.3 0-.4.1-.6l.4-.4c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.4-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.3-.8.8-.8 1.9s.8 2.2 1 2.4c.1.1 1.6 2.5 3.9 3.5.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.3-.5 1.5-1 .2-.5.2-.9.1-1l-.4-.1zM12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2z"/></svg>
+    WhatsApp
+  </a>
+</div>
+
+<!-- ============================= LIGHTBOX ============================= -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <div class="lightbox-stage">
+    <button class="lb-btn lb-close" id="lbClose" aria-label="Close image viewer">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <button class="lb-btn lb-prev" id="lbPrev" aria-label="Previous image">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <img id="lbImg" src="" alt="">
+    <button class="lb-btn lb-next" id="lbNext" aria-label="Next image">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+    <p class="lightbox-cap" id="lbCap"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
